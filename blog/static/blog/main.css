@@ -4,7 +4,7 @@
 
 
 body {
-  background: #15202b;
+  background: rgb(238, 238, 238)198);
   color: var(--muted-color);
   margin-top: 5rem;
 }
@@ -18,7 +18,7 @@ ul {
 }
 
 .bg-steel {
-  background-color: #15202b;
+  background-color: #000000;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -76,11 +76,12 @@ a {
      text-decoration: none !important;
 }
 a:hover {
-    color: #00FBD7;
+    color: rgb(60, 134, 123);
     text-underline: none !important;
 }
 .text-muted {
-    color: var(--muted-color) !important;
+    color: black !important;
+    font:arial;
 }
 
 article {
@@ -88,7 +89,7 @@ article {
 }
 
 .white-important {
-    color: white;
+    color:black;
     font-weight: bold;
 }
 
@@ -117,7 +118,7 @@ article {
 }
 
 .form-control {
-    background-color: #36405e !important;
+    background-color: #505050 !important;
     color: var(--muted-color) !important;
     box-shadow: 0 0 0 0 !important;
     border-radius: 20px !important;
@@ -224,7 +225,7 @@ input[type="file"]::-webkit-file-upload-button {
 }
 
 .profile-section{
-  background-color: #2d3741;
+  background-color: #131313;
   padding: 5px;
   border-radius: 25px;
 }
